@@ -1,0 +1,94 @@
+/* ОБНУЛЕНИЕ */
+@import "./reset.css";
+body {
+  font-family: "benguiat rus";
+  font-weight: bold;
+  background-image: url("../images/header.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: block;
+  backdrop-filter: blur(2px);
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+
+nav {
+  margin: auto auto;
+  padding-top: 20px;
+  width: 950px;
+  height: 100px;
+  font-size: 20px;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(252, 55, 55);
+  display: inline-block;
+  margin-left: 30px;
+  padding: 10px 20px;
+  background-color: rgb(53, 5, 5);
+  box-shadow: 0 0 20px black;
+  border-bottom: 5px solid red;
+}
+.menu li {
+  display: inline;
+}
+.menu li :hover {
+  opacity: 80%;
+}
+/* GENERAL */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 100px;
+  width: 80%;
+  margin: auto auto;
+}
+.text-general {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 19px;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.42);
+  align-items: center;
+}
+.text-general p {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.text-general a {
+  color: white;
+  text-decoration: underline;
+}
+.poster-1 {
+  margin-top: 30px;
+  width: 65%;
+}
+
+/* FOOTER */
+footer {
+  align-items: flex-end;
+}
+.footer-text {
+  display: flex;
+  justify-content: center;
+  background-color: violet;
+  color: #fff;
+  font-size: 30px;
+}
